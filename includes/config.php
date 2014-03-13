@@ -1,0 +1,24 @@
+<?php
+//define constants used later
+!defined('SITE_ROOT')?define('SITE_ROOT',$_SERVER['DOCUMENT_ROOT'].'/mobappclub/mybits'):NULL;
+!defined('LIB_PATH')?define('LIB_PATH',SITE_ROOT.'/includes/'):NULL;
+!defined('TIME_DIFF')?define('TIME_DIFF',45000):NULL;
+!defined('HOST')?define('HOST','mybits.db.11956393.hostedresource.com'):NULL;
+!defined('USER')?define('USER','mybits'):NULL;
+!defined('PASS')?define('PASS','myBITS@dmin1'):NULL;
+!defined('DB')?define('DB','mybits'):NULL;
+!defined('LOG_FILE')?define('LOG_FILE',LIB_PATH."log.txt"):NULL;
+!defined('LOG_FILE_GCM')?define('LOG_FILE_GCM',LIB_PATH."gcm.log"):NULL;
+!defined('READABLE_LOG_FILE')?define('READABLE_LOG_FILE',LIB_PATH."readable_log.txt"):NULL;
+!defined('MESS_LOGIN_PAGE')?define('MESS_LOGIN_PAGE',"/mybits/mess/index.php"):NULL;
+!defined('ADMIN_LOGIN_PAGE')?define('ADMIN_LOGIN_PAGE',"/mybits/admin/index.php"):NULL;
+!defined('GCM_PROJECT_ID_GENERAL')?define('GCM_PROJECT_ID_GENERAL',"617056787204"):NULL;
+//!defined('GOOGLE_API_KEY_GENERAL')?define('GOOGLE_API_KEY_GENERAL',"AIzaSyDnAcAtjG9lKvTL1KLL5E-wahVFm8Krzzo"):NULL;
+!defined('GOOGLE_API_KEY_GENERAL')?define('GOOGLE_API_KEY_GENERAL',"AIzaSyCV88GGdxq21UqTBQYQli1A_SQWnFzzmRc"):NULL;
+!defined('GCM_PROJECT_ID_CIRCLE')?define('GCM_PROJECT_ID_CIRCLE',"583085103747"):NULL;
+//!defined('GOOGLE_API_KEY_CIRCLE')?define('GOOGLE_API_KEY_CIRCLE',"AIzaSyAPTxDQOomHjFrzPel8P2EtPSlgLKVm-tY"):NULL;
+!defined('GOOGLE_API_KEY_CIRCLE')?define('GOOGLE_API_KEY_CIRCLE',"AIzaSyDUeVGTuPnfZCPZ4yU8E1K3M7YcUOuEvv4"):NULL;
+!defined('GCM_PROJECT_ID_REST')?define('GCM_PROJECT_ID_REST',"922385619947"):NULL;
+//!defined('GOOGLE_API_KEY_REST')?define('GOOGLE_API_KEY_REST',"AIzaSyAfFpeb6llEmOwlXacVjIt1XbdqJ5RKiCU"):NULL;
+!defined('GOOGLE_API_KEY_REST')?define('GOOGLE_API_KEY_REST',"AIzaSyCJhFjct4-CVN_RSmg8Dz9-tNFBOldN8WI"):NULL;
+?>
